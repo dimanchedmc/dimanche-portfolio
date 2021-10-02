@@ -31,6 +31,9 @@ body {
   background-size: cover;
   background-position: center;
 }
+a {
+  text-decoration: none;
+}
 figure {
   display: flex;
   justify-content: center;
@@ -81,11 +84,15 @@ img.social-item {
   flex-wrap: wrap;
   width: 100%;
 }
-.app-card {
+a.social__link {
+  color: #212121;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.app-card {
   width: 50%;
   font-size: 16px;
   background: rgb(146, 151, 179, 13%);
@@ -97,6 +104,8 @@ img.social-item {
 }
 .app-card:hover {
   background: #8c9eff;
+}
+a.social__link:hover {
   color: white;
 }
 span {
